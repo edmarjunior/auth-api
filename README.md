@@ -1,6 +1,6 @@
 # Auth API
 
- ## Funcionalidades inclusas
+ ## Funcionalidades inclusas &nbsp;&nbsp;&nbsp;  [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Auth%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fedmarjunior%2Fauth-api%2Fmaster%2Finsomnia-export.json%3Ftoken%3DAC52DJGF7PLTZO5QALNOZB26USNKK)
   - criar conta (via de e-mail de ativação)
   - reenviar ativação de conta (via e-mail)
   - ativar conta
@@ -28,7 +28,7 @@
       - yarn sequelize db:migrate (criar as migrations no banco de dados)
       - yarn dev (iniciar a aplicação com nodemon em http://localhost:3333)
     
-    ## Rodando testes
+ ## Rodando testes
   - criar arquivo .env.test e preencher as variaveis de embiente (dica: ctrl+C e ctrl+V do arquivo .env.test.example)
   - rodar no teminal (na raiz do projeto) os comandos abaixo:  
     ```
