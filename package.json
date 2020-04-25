@@ -1,0 +1,40 @@
+{
+  "name": "node-structure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/edmarjunior/auth-api.git",
+  "author": "Edmar Junior <edmarjunior17@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "pretest": "set NODE_ENV=test&&sequelize db:migrate",
+    "test": "jest --forceExit",
+    "posttest": "set NODE_ENV=test&&sequelize db:migrate:undo:all"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "pg": "^8.0.2",
+    "sequelize": "^5.21.6",
+    "yup": "^0.28.4"
+  },
+  "devDependencies": {
+    "@sucrase/jest-plugin": "^2.0.0",
+    "@types/jest": "^25.2.1",
+    "factory-girl": "^5.0.4",
+    "faker": "^4.1.0",
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.3",
+    "sequelize-cli": "^5.5.1",
+    "sqlite3": "^4.1.1",
+    "sucrase": "^3.13.0",
+    "supertest": "^4.0.2"
+  }
+}
